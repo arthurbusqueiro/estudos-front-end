@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    background-color: bisque;
+
+}
+
+
+@media only screen and (min-width:320px) {
+    .my-box {
+        width: 50%;
+        height: 300px;
+        background-color: rgb(43, 226, 141);
+        display: block;
+        margin:  60px auto;
+        text-align: center;
+        padding: 30px;
+        box-sizing: border-box;
+    }
+    
+    .my-box h1 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: rgb(192, 45, 143);
+    
+    }
+}
+
+
+
+@media only screen and (min-width:540px) {
+    .my-box {
+        width: 90%;
+        height: 400px;
+        background-color: blueviolet;
+        display: block;
+        margin:  60px auto;
+        text-align: center;
+        padding: 30px;
+        box-sizing: border-box;
+    }
+    
+    .my-box h1 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: beige;
+    
+    }
+}
+
