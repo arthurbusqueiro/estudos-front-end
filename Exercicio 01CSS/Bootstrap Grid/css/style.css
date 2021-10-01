@@ -1,0 +1,39 @@
+body {
+ margin: 0;
+ padding: 0;   
+
+}
+
+
+.my-box {
+    background-color: rgb(231, 157, 181);
+    height: 100px;
+}
+
+.may-box div {
+    height: 80px;
+    margin-top: 10px;
+    text-align: center;
+    
+
+}
+
+ .my-box .div-1 {
+    background-color: blueviolet;
+    height: 80px;
+    text-align: center;
+
+ }
+ 
+ .my-box .div-2 {
+    background-color: rgb(43, 137, 226);
+    text-align: center;
+
+ }  
+
+ .my-box .div-3 {
+    background-color: rgb(226, 43, 134);
+    text-align: center;
+
+ }  
+
